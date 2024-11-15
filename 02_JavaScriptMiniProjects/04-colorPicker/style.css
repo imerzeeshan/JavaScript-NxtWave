@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.color-picker-container {
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.color-picker-heading {
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.button {
+    font-family: "Open Sans";
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.button-1 {
+    background-color: #e0e0e0;
+}
+
+.button-2 {
+    background-color: #6fcf97;
+}
+
+.button-3 {
+    background-color: #56ccf2;
+}
+
+.button-4 {
+    background-color: #bb6bd9;
+}
+
+.selected-color-text {
+    background-color: #222222;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 16px;
+    width: 30%;
+}
+
+.selected-color-hex-code {
+    color: #49a6e9;
+}
+
+.color-picker-instruction {
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .selected-color-text {
+        width: 90%;
+    }
+}
