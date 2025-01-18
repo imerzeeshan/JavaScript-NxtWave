@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serieshanf&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.name-container {
+    background-color: #2d3a8c;
+    color: white;
+}
+
+.greet {
+    font-size: 18px;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.bookmark-container {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+}
+
+.bookmark-heading {
+    color: #323f4b;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+#bookmarkForm {
+    background-color: #e4e7eb;
+    padding: 20px;
+    color: #323f4b;
+    border-radius: 12px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7b8794;
+}
+
+.error-msg {
+    color: #dc3545;
+}
+
+.added-bookmark {
+    background-color: #e4e7eb;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.title {
+    font-size: 18px;
+    color: black;
+}
