@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Speed Typing Test</h1>
+        <p class="paragraph">On your fingers lets set Go!</p>
+        <div id="spinner" class="text-center mt-5 d-none">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <div id="speedTypingTest" class="pt-2">
+            <div class="d-flex flex-row ">
+                <img class="clock-img mr-4" src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" alt="" />
+                <p id="timer" class="timerSeconds mr-1"></p><span class="span-seconds mt-4">seconds</span>
+            </div>
+            <div class="mt-4 quote-div">
+                <p id="quoteDisplay"></p>
+                <textarea placeholder="Entering some random text" class="form-control" name="quoteInput" id=quoteInput rows="6" cols="40"></textarea>
+            </div>
+            <p id="result" class="result-content mt-3"></p>
+            <div class="mt-4 mb-4">
+                <button id="submitBtn" class="btn submitBtn mr-3">Submit</button>
+                <button id="resetBtn" class="btn resetBtn">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
